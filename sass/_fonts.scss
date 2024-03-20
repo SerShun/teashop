@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'opensans_reg';
+    src: local('opensans'),
+    url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+    url('../fonts/OpenSans-Regular.woff') format('woff'),
+    url('../fonts/OpenSans-Regular.ttf') format('truetype');
+font-weight: 400;
+font-style: normal;
+font-display: swap;
+}
+
+@font-face {
+    font-family: 'opensans_italic';
+    src: local('opensans_italic'),
+    url('../fonts/OpenSans-LightItalic.woff2') format('woff2'),
+    url('../fonts/OpenSans-LightItalic.woff') format('woff'),
+    url('../fonts/OpenSans-LightItalic.ttf') format('truetype');
+font-weight: 300;
+font-style: normal;
+font-display: swap;
+}
+
+@font-face {
+    font-family: 'opensans_light';
+    src: local('opensans_light'),
+    url('../fonts/OpenSans-Light.woff2') format('woff2'),
+    url('../fonts/OpenSans-Light.woff') format('woff'),
+    url('../fonts/OpenSans-Light.ttf') format('truetype');
+font-weight: 300;
+font-style: normal;
+font-display: swap;
+}
+
+@font-face {
+    font-family: 'opensans_semibold';
+    src: local('opensans'),
+    url('../fonts/OpenSans-SemiBold.woff2') format('woff2'),
+    url('../fonts/OpenSans-SemiBold.woff') format('woff'),
+    url('../fonts/OpenSans-SemiBold.ttf') format('truetype');
+font-weight: 600;
+font-style: normal;
+font-display: swap;
+}
+
+@font-face {
+    font-family: 'cormorant';
+    src: local('cormorant'),
+    url('../fonts/Cormorant-LightItalic.woff2') format('woff2'),
+    url('../fonts/Cormorant-LightItalic.woff') format('woff'),
+    url('../fonts/Cormorant-LightItalic.ttf') format('truetype');
+font-weight: 300;
+font-style: normal;
+font-display: swap;
+}
+
+@font-face {
+    font-family: 'cormorant';
+    src: local('cormorant'),
+    url('../fonts/Cormorant-Regular.woff2') format('woff2'),
+    url('../fonts/Cormorant-Regular.woff') format('woff'),
+    url('../fonts/Cormorant-Regular.ttf') format('truetype');
+font-weight: 400;
+font-style: normal;
+font-display: swap;
+}

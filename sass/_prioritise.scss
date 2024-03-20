@@ -1,0 +1,42 @@
+.prioritise{
+    padding: 150px 0;
+    color: rgb(21, 22, 24);
+    text-align: center;
+
+    &__title{
+        font-family: cormorant;
+        font-size: 40px;
+        font-weight: 400;
+        margin-bottom: 60px;
+    }
+
+    &__list{
+        list-style: none;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        grid-auto-rows: auto;
+        gap: 30px 49px;
+    }
+
+    &__subtitle{
+        font-family: opensans_light;
+        font-size: 30px;
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+
+    &__text{
+        font-family: opensans_semibold;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 30px;
+        line-height: 27px;
+    }
+
+    &__svg{
+        width: 65px;
+        height: 65px;
+    }
+}

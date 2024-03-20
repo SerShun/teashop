@@ -1,0 +1,90 @@
+.blog{
+    padding: 150px 0;
+
+    &__title{
+        color: rgb(21, 22, 24);
+        font-family: cormorant;
+        font-size: 40px;
+        font-weight: 400;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px 58px;
+        list-style: none;
+    }
+
+    &__item{
+        flex-basis: 542px;
+        display: flex;
+        gap: 0 20px;
+    }
+
+    &__subtitle{
+        color: rgb(21, 22, 24);
+        font-family: cormorant;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29px;
+        text-align: left;
+        margin-bottom: 10px;
+        min-height: 86px;
+
+    }
+
+    &__author{
+        text-decoration: none;
+        color: rgb(21, 22, 24);
+        font-family: opensans_light;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 18px;
+        text-align: left;
+    }
+
+    &__link{
+        text-decoration: none;
+        color: rgb(21, 22, 24);
+        font-family: opensans_light;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 18px;
+        text-align: left;
+        margin-top: auto;
+        position: relative;
+
+     &__link::after{
+        content: '';
+        background-image: url(../images/prioritise__arrow.svg);
+        width: 5px;
+        height: 10px;
+        margin-left: 8px;
+        position: absolute;
+        bottom: 3px;
+        }   
+        
+ 
+    }
+
+    &__main-link{
+        text-decoration: none;
+        color: rgb(21, 22, 24);
+        font-family: opensans_light;
+        font-size: 20px;
+        font-weight: 300;
+        padding: 12px 41px;
+        display: flex;
+        justify-content: center;
+        margin: 72px auto;
+        border: 1px solid rgb(21, 22, 24);
+        width: 152px;
+    }
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+    }
+}

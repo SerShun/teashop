@@ -1,0 +1,30 @@
+.cup{
+    
+    background: url(../images/header__bg.jpeg) no-repeat center / cover;
+
+    &__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        min-height: 500px;
+        color: #fff;
+        font-family: cormorant;
+        font-weight: 400;
+    }
+
+    &__title{
+        font-size: 60px;
+        font-weight: 400;
+        margin-bottom: 20px;
+        max-width: 780px;
+        line-height: 1;
+    }
+
+    &__text{
+        font-size: 24px;
+        margin-bottom: 48px;
+        max-width: 560px;
+        line-height: normal;
+    }
+
+}

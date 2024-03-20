@@ -1,0 +1,130 @@
+.head{
+        &__menu{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 140px;
+            padding: 30px 0px;
+        }
+
+        &__svg{
+            width: 73px;
+            height: 105px;
+            margin-bottom: 35px;
+        }
+
+}
+
+body {
+    position: relative;
+}
+
+
+.menu{
+    &__btn{
+        display: none;
+        width: 40px;
+        height: 20px;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0;
+        border: none;
+        position: relative;
+        z-index: 2;
+    }
+
+    &__btn span{
+        background-color: #000;
+        height: 2px;
+        width: 100%;
+    }
+
+    &__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 65px;
+        margin-left: 85px;
+        position: relative;
+        z-index: 3;
+    }
+
+    &__item{
+        list-style: none;
+    }
+
+    &__link{
+        text-decoration: none;
+        color: rgb(21, 22, 24);
+        font-family: opensans;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+    
+    &__user{
+        display: flex;
+        gap: 20px;
+
+    }
+
+    &__user--item{
+        list-style: none;
+    }
+
+    &__user--link-search{
+        margin-left: 80px;
+    }
+
+    &__user--svg{
+        width: 22px;
+        height: 22px;
+    }
+
+}
+
+.menu__shadowoff{
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.menu__shadowoff.menu__shadowon{
+    display: block;
+}
+
+.mobile{
+    &__menu-link{
+        text-decoration: none;
+        color: rgb(21, 22, 24);
+        font-family: opensans;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    &__menu-item{
+            list-style: none;
+            text-decoration: none;
+        }
+     
+    &__user--item{
+        list-style: none;
+    }
+
+    &__user--svg{
+        width: 22px;
+        height: 22px;
+    }
+}
+
+.mobile__nav, 
+.menu__close{
+    display: none;
+}

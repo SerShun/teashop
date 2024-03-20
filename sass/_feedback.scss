@@ -1,0 +1,46 @@
+.feedback{
+    background: rgb(247, 242, 234);
+    padding: 60px 0px;
+
+    &__title{
+        color: rgb(21, 22, 24);
+        font-family: cormorant;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    &__list{
+        display: flex;
+        gap:25px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    &__item{
+        list-style: none;
+        max-width: 280px;
+    }
+
+    &__text{
+        color: rgb(21, 22, 24);
+        font-family: opensans_italic;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    &__author{
+        color: rgb(21, 22, 24);
+        font-family: opensans;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 27px;
+        text-align: left;
+    }
+}
+

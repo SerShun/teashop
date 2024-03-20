@@ -1,0 +1,123 @@
+.footer{
+    padding: 100px 0 20px;
+    background-color: rgb(247, 242, 234);
+    a{
+        text-decoration: none;
+        color: rgb(21, 22, 24);
+    }
+
+    ul{
+        list-style: none;
+    }
+
+    &__inner{
+       margin-bottom: 100px;
+       display: grid;
+       grid-template-columns:repeat(4, 1fr);
+       gap: 0 40px; 
+    }
+
+    &__bottom{
+        display: flex;
+    }
+
+    &__copyright{
+        margin-right: 192px;
+        color: rgb(21, 22, 24);
+        font-family: opensans_light;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    &__products-title,
+    &__company-title,
+    &__contacts-title{
+        font-family: cormorant;
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 50px;
+    }
+
+    &__products-item,
+    &__company-item{
+        margin-bottom: 20px;
+        color: rgb(21, 22, 24);
+        font-family: opensans_light;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    &__blockquote-text{
+        margin-top: 80px;
+        margin-bottom: 20px;
+        color: rgb(21, 22, 24);
+        font-family: opensans_italic;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    &__blockquote-author{
+        color: rgb(21, 22, 24);
+        font-family: opensans_light;
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    &__blockquote-author span{
+        display: block;
+    }
+
+    &__contacts-text{
+        color: rgb(21, 22, 24);
+        font-family: opensans_light;
+        font-size: 13px;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+
+    &__svg{
+        width: 75px;
+        height: 101px;
+        margin-right: 40px;
+    }
+
+    &__nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__nav-contacts{
+        margin-top: 20px;
+    }
+
+    &__nav-phone,
+    &__nav-email{
+        color: rgb(21, 22, 24);
+        font-family: opensans_light;
+        font-size: 13px;
+        font-weight: 300;
+        padding-left: 32px;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    &__social{
+        margin-top: 40px;
+        margin-left: 97px;
+    }
+
+    &__social-list{
+        display: flex;
+        align-items: center;
+        gap: 0 20px;
+    }
+}
+
+.payment{
+    display: flex;
+    gap: 0 20px;
+
+    &__logo{
+        list-style: none;
+    }
+}
